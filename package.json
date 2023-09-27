@@ -2,12 +2,16 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
+    "gen": "turbo gen",
     "dev": "turbo run dev",
+    "sb": "turbo run sb",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "update:packages": "pnpm dlx npm-check-updates -u --deep"
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
+    "@turbo/gen": "^1.10.14",
+    "eslint": "^8.50.0",
     "prettier": "^3.0.3",
     "tsconfig": "workspace:*",
     "turbo": "latest"

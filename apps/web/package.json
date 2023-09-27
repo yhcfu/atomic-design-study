@@ -6,21 +6,46 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sb": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
-    "next": "^13.4.19",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^3.3.1",
+    "framer-motion": "^10.16.4",
+    "next": "^13.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "workspace:*"
+    "react-hook-form": "^7.46.2",
+    "ui": "workspace:*",
+    "zod": "^3.22.2"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^13.4.19",
-    "@types/node": "^17.0.12",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
+    "@chakra-ui/storybook-addon": "^5.0.1",
+    "@hookform/devtools": "^4.3.1",
+    "@next/eslint-plugin-next": "^13.5.3",
+    "@storybook/addon-actions": "^7.4.5",
+    "@storybook/addon-designs": "^7.0.5",
+    "@storybook/addon-essentials": "^7.4.5",
+    "@storybook/addon-interactions": "^7.4.5",
+    "@storybook/addon-links": "^7.4.5",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.4.5",
+    "@storybook/cli": "^7.4.5",
+    "@storybook/nextjs": "^7.4.5",
+    "@storybook/react": "^7.4.5",
+    "@storybook/testing-library": "^0.2.1",
+    "@turbo/gen": "^1.10.14",
+    "@types/node": "^20.7.0",
+    "@types/react": "^18.2.23",
+    "@types/react-dom": "^18.2.8",
     "eslint-config-custom": "workspace:*",
+    "glob": "^10.3.10",
+    "storybook": "^7.4.5",
     "tsconfig": "workspace:*",
-    "typescript": "^4.5.3"
+    "typescript": "^5.2.2"
   }
 }
